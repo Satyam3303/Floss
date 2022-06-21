@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floss</title>
+    <link rel="stylesheet" href="./start.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+</head>
+<body>
+    <div class="hidden" id="id1">
+        <img id="img1" src="./floss-roblox.gif" alt="">
+        
+    </div>
+
+ 
+        <button onclick="toggle(hide2,hide1)" class="button1" id="hide1">Free Robucks</button>
+        <button onclick="toggle(hide3,hide2)" class="button2" id="hide2">Free Robucks</button>
+        <button onclick="toggle(id1,hide3);audio.play();" class="button3" id="hide3">Free Robucks</button>
+    <script src="./start.js"></script>
+    <script type="text/javascript">
+        const audio = new Audio();
+        audio.src="./done.mp3";
+    </script>
+</body>
+</html>
